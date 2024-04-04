@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>VSCode Calculator (sort of)</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+		<script src="script.js" defer></script>
+		<link
+			href="https://fonts.cdnfonts.com/css/seven-segment"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="center-div">
+			<div class="calculator-container">
+				<div id="display">0</div>
+				<div class="btn-container">
+					<button type="button" class="btn btn-red" id="clearBtn">C</button
+					><button type="button" class="btn" id="minus-btn">+-</button
+					><button type="button" class="btn operators" id="divideBtn" value="/">
+						/
+					</button>
+					<button type="button" class="btn btn-red" id="btn-delete">DEL</button>
+				</div>
+				<div class="btn-container">
+					<button type="button" class="btn num-btn" value="7">7</button
+					><button type="button" class="btn num-btn" value="8">8</button
+					><button type="button" class="btn num-btn" value="9">9</button
+					><button
+						type="button"
+						class="btn operators"
+						id="multiplyBtn"
+						value="*"
+					>
+						X
+					</button>
+				</div>
+				<div class="btn-container">
+					<button type="button" class="btn num-btn" value="4">4</button
+					><button type="button" class="btn num-btn" value="5">5</button
+					><button type="button" class="btn num-btn" value="6">6</button
+					><button type="button" class="btn operators" value="-">-</button>
+				</div>
+				<div class="btn-container">
+					<button type="button" class="btn num-btn" value="1">1</button
+					><button type="button" class="btn num-btn" value="2">2</button
+					><button type="button" class="btn num-btn" value="3">3</button
+					><button type="button" class="btn operators" value="+">+</button>
+				</div>
+				<div class="btn-container">
+					<button type="button" class="btn num-btn" value="0">0</button
+					><button type="button" class="btn" id="decimalBtn">.</button
+					><button
+						type="button"
+						class="btn"
+						id="resultBtn"
+						style="
+							background-color: rgb(214, 210, 0);
+							border-color: rgb(148, 148, 148);
+							color: black;
+						"
+					>
+						=
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
